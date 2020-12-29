@@ -70,13 +70,6 @@ STORES = [
     [False, 'https://www.compumundo.com.ar/q/ps5/srch?q=ps5', '//*[contains(@id, "item-description")]/text()'],
     
     #
-    # Castillo
-    #
-    [False, 'https://castillo.com.ar/playstation', '//*[contains(@class, "main-title")]/text()'],
-    [False, 'https://castillo.com.ar/playstation%205', '//*[contains(@class, "main-title")]/text()'],
-    [False, 'https://castillo.com.ar/ps5', '//*[contains(@class, "main-title")]/text()'],
-    
-    #
     # Walmart
     #
     [False, 'https://www.walmart.com.ar/buscar?text=playstation', '//*[contains(@class, "prateleira__name")]/text()'],
