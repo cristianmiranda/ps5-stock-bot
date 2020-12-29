@@ -5,7 +5,7 @@
 pipenv install
 
 # Run
-pipenv run python3 main.py <TELEGRAM_BOT_TOKEN> <RECIPIENTS>
+pipenv run python3 main.py <TELEGRAM_BOT_TOKEN> <TELEGRAM_RECIPIENTS_CHAT_IDS>
 ```
 
 ## Example
