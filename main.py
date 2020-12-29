@@ -36,6 +36,13 @@ KEYWORDS = ['playstation', 'ps5', 'consola', 'console', 'sony']
 
 STORES = [
     #
+    # Garbarino
+    #
+    [False, 'https://www.garbarino.com/q/playstation/srch?q=playstation', '//*[contains(@id, "item-description")]/text()'],
+    [False, 'https://www.garbarino.com/q/playstation%205/srch?q=playstation%205', '//*[contains(@id, "item-description")]/text()'],
+    [False, 'https://www.garbarino.com/q/ps5/srch?q=ps5', '//*[contains(@id, "item-description")]/text()'],
+
+    #
     # Sony
     #
     [False, 'https://store.sony.com.ar/playstation%205', './/a[@class="title ellipsis"]/text()'],
