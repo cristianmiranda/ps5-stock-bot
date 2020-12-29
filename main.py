@@ -158,7 +158,14 @@ def main():
     
     elapsed_time = time.time() - start_time
     elapsed = time.strftime("%H:%M:%S", time.gmtime(elapsed_time))
-    print("\n\nElapsed time: " + elapsed)
+    
+    dateTimeObj = datetime.now()
+    timestampStr = dateTimeObj.strftime("%d-%m-%Y %H:%M:%S")
+
+    print("\n\n ---------------------")
+    print("\nDate: " + timestampStr)
+    print("\nElapsed time: " + elapsed)
+    print("\n ---------------------\n\n")
 
 
 def scrap(store):
