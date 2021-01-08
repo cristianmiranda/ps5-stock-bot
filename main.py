@@ -30,7 +30,7 @@ def parseJumbo(raw):
     return items
 
 
-GARBAGE = ['sackboy', 'souls', 'morales', 'dualsense', 'juego', 'ps4', 'cámara', 'camara', 'control', 'joystick', 'dualshock', 'parlante', 'celular', 'funda', 'lavarropas', 'cocina', 'plancha', 'auriculares', 'kombat', 'android', 'nes', 'retro', 'pc', 'mixer', 'xbox', 'microsoft', 'nintendo', 'audio', 'fighter', 'nba', 'vr', 'meses', 'posavasos', 'lámpara', 'remote', 'hd']
+GARBAGE = ['sackboy', 'souls', 'morales', 'dualsense', 'juego', 'ps4', 'cámara', 'camara', 'control', 'joystick', 'dualshock', 'parlante', 'celular', 'funda', 'lavarropas', 'cocina', 'plancha', 'auriculares', 'kombat', 'android', 'nes', 'retro', 'pc', 'mixer', 'xbox', 'microsoft', 'nintendo', 'audio', 'fighter', 'nba', 'vr', 'meses', 'posavasos', 'lámpara', 'remote', 'hd', 'kanji']
 
 KEYWORDS = ['playstation', 'ps5', 'consola', 'console', 'sony']
 
