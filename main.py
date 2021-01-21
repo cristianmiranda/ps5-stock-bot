@@ -90,13 +90,6 @@ STORES = [
     [False, 'https://www.naldo.com.ar/search/?text=ps5', '//*[contains(@class, "product__list--name")]/text()'],
     
     #
-    # PHI Digital
-    #
-    [False, 'https://www.phi-digital.com/?s=playstation&search_id=1&post_type=product', '//*[contains(@class, "desc")]/h4/a/text()'],
-    [False, 'https://www.phi-digital.com/?s=playstation+5&search_id=1&post_type=product', '//*[contains(@class, "desc")]/h4/a/text()'],
-    [False, 'https://www.phi-digital.com/?s=ps5&search_id=1&post_type=product', '//*[contains(@class, "desc")]/h4/a/text()'],
-    
-    #
     # Carrefour
     #
     [False, 'https://www.carrefour.com.ar/catalogsearch/result/?q=playstation', '//*[contains(@class, "producto-info")]/a/p[@class="title"]/text()'],
