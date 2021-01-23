@@ -111,9 +111,9 @@ STORES = [
     #
     # CD Market
     #
-    [False, 'https://www.cdmarket.com.ar/Item/Result?getfilterdata=true&page=1&id=0&recsperpage=32&order=CustomDate&sort=False&itemtype=Product&view=&term=playstation&filters=&hasStock=true', '*//div[@class="box_data"]/h3/text()'],
-    [False, 'https://www.cdmarket.com.ar/Item/Result?getfilterdata=true&page=1&id=0&recsperpage=32&order=CustomDate&sort=False&itemtype=Product&view=&term=playstation+5&filters=&hasStock=true', '*//div[@class="box_data"]/h3/text()'],
-    [False, 'https://www.cdmarket.com.ar/Item/Result?getfilterdata=true&page=1&id=0&recsperpage=32&order=CustomDate&sort=False&itemtype=Product&view=&term=ps5&filters=&hasStock=true', '*//div[@class="box_data"]/h3/text()'],
+    [False, 'https://www.cdmarket.com.ar/Item/Result?getfilterdata=true&page=1&id=0&recsperpage=32&order=CustomDate&sort=False&itemtype=Product&view=&term=playstation&filters=&hasStock=true', '//*/div[contains(@class, "box_data") and not(contains(@class, "box_data nonavailable"))]/h3/text()'],
+    [False, 'https://www.cdmarket.com.ar/Item/Result?getfilterdata=true&page=1&id=0&recsperpage=32&order=CustomDate&sort=False&itemtype=Product&view=&term=playstation+5&filters=&hasStock=true', '//*/div[contains(@class, "box_data") and not(contains(@class, "box_data nonavailable"))]/h3/text()'],
+    [False, 'https://www.cdmarket.com.ar/Item/Result?getfilterdata=true&page=1&id=0&recsperpage=32&order=CustomDate&sort=False&itemtype=Product&view=&term=ps5&filters=&hasStock=true', '//*/div[contains(@class, "box_data") and not(contains(@class, "box_data nonavailable"))]/h3/text()'],
 
     #
     # Necxus
