@@ -13,8 +13,7 @@ pipenv run python3 main.py <TELEGRAM_BOT_TOKEN> <TELEGRAM_RECIPIENTS_CHAT_IDS>
 pipenv run python3 main.py 1948542717:JKSAFNJAFNDASJILFNJSINNFJSDNFJSI '["156629926","114326410"]'
 ```
 
-(Using 'Sackboy' as a keyword)
-![](https://imgur.com/ZjjQNyf.png)
+![](https://imgur.com/6drm7lt.png)
 
 ```
 Hecho con ❤️ en 🇦🇷 ... papá! 🤙🏼
