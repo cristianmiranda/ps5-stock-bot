@@ -1,5 +1,7 @@
 # 🎮 PS5 Stock Bot
 
+![PS5 Stock Bot](https://github.com/cristianmiranda/ps5-stock-bot/workflows/PS5%20Stock%20Bot/badge.svg)
+
 ```bash
 # Install dependencies
 pipenv install
