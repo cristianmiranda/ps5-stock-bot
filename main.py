@@ -126,7 +126,6 @@ STORES = [
     # Cetrogar
     #
     [False, 'https://www.cetrogar.com.ar/catalogsearch/result/?q=playstation', '*//a[@class="product-item-link"]/text()'],
-    [False, 'https://www.cetrogar.com.ar/catalogsearch/result/?q=playstation+5', '*//a[@class="product-item-link"]/text()'],
     [False, 'https://www.cetrogar.com.ar/catalogsearch/result/?q=ps5', '*//a[@class="product-item-link"]/text()'],
 ]
 
