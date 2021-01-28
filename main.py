@@ -39,7 +39,6 @@ STORES = [
     # Garbarino
     #
     [False, 'https://www.garbarino.com/q/playstation/srch?q=playstation', '//*[contains(@id, "item-description")]/text()'],
-    [False, 'https://www.garbarino.com/q/playstation%205/srch?q=playstation%205', '//*[contains(@id, "item-description")]/text()'],
     [False, 'https://www.garbarino.com/q/ps5/srch?q=ps5', '//*[contains(@id, "item-description")]/text()'],
 
     #
@@ -52,28 +51,24 @@ STORES = [
     # Musimundo
     #
     [True, 'https://u.braindw.com/els/musimundoapi?ft=playstation&qt=100&sc=carsa&refreshmetadata=true&exclusive=0&aggregations=true', parseMusimundo],
-    [True, 'https://u.braindw.com/els/musimundoapi?ft=playstation%205&qt=100&sc=carsa&refreshmetadata=true&exclusive=0&aggregations=true', parseMusimundo],
     [True, 'https://u.braindw.com/els/musimundoapi?ft=ps5&qt=100&sc=carsa&refreshmetadata=true&exclusive=0&aggregations=true', parseMusimundo],
     
     #
     # Jumbo
     #
     [True, 'https://www.jumbo.com.ar/api/catalog_system/pub/products/search/?=,&ft=playstation', parseJumbo],
-    [True, 'https://www.jumbo.com.ar/api/catalog_system/pub/products/search/?=,&ft=playstation%205', parseJumbo],
     [True, 'https://www.jumbo.com.ar/api/catalog_system/pub/products/search/?=,&ft=ps5', parseJumbo],
     
     #
     # Fravega
     #
     [False, 'https://www.fravega.com/l/?keyword=playstation', '//*[contains(@class, "PieceTitle")]/text()'],
-    [False, 'https://www.fravega.com/l/?keyword=playstation%205', '//*[contains(@class, "PieceTitle")]/text()'],
     [False, 'https://www.fravega.com/l/?keyword=ps5', '//*[contains(@class, "PieceTitle")]/text()'],
 
     #
     # Compumundo
     #
     [False, 'https://www.compumundo.com.ar/q/playstation/srch?q=playstation', '//*[contains(@id, "item-description")]/text()'],
-    [False, 'https://www.compumundo.com.ar/q/playstation%205/srch?q=playstation%205', '//*[contains(@id, "item-description")]/text()'],
     [False, 'https://www.compumundo.com.ar/q/ps5/srch?q=ps5', '//*[contains(@id, "item-description")]/text()'],
     
     #
@@ -86,21 +81,18 @@ STORES = [
     # Naldo
     #
     [False, 'https://www.naldo.com.ar/search/?text=playstation', '//*[contains(@class, "product__list--name")]/text()'],
-    [False, 'https://www.naldo.com.ar/search/?text=playstation+5', '//*[contains(@class, "product__list--name")]/text()'],
     [False, 'https://www.naldo.com.ar/search/?text=ps5', '//*[contains(@class, "product__list--name")]/text()'],
     
     #
     # Carrefour
     #
     [False, 'https://www.carrefour.com.ar/catalogsearch/result/?q=playstation', '//*[contains(@class, "producto-info")]/a/p[@class="title"]/text()'],
-    [False, 'https://www.carrefour.com.ar/catalogsearch/result/?q=playstation+5', '//*[contains(@class, "producto-info")]/a/p[@class="title"]/text()'],
     [False, 'https://www.carrefour.com.ar/catalogsearch/result/?q=ps5', '//*[contains(@class, "producto-info")]/a/p[@class="title"]/text()'],
     
     #
     # Coppel
     #
     [False, 'https://www.coppel.com.ar/search/?q=playstation', '//*[contains(@class, "item-name")]/text()'],
-    [False, 'https://www.coppel.com.ar/search/?q=playstation+5', '//*[contains(@class, "item-name")]/text()'],
     [False, 'https://www.coppel.com.ar/search/?q=ps5', '//*[contains(@class, "item-name")]/text()'],
     
     #
@@ -112,20 +104,16 @@ STORES = [
     # CD Market
     #
     [False, 'https://www.cdmarket.com.ar/Item/Result?getfilterdata=true&page=1&id=0&recsperpage=32&order=CustomDate&sort=False&itemtype=Product&view=&term=playstation&filters=&hasStock=true', '//*/div[contains(@class, "box_data") and not(contains(@class, "box_data nonavailable"))]/h3/text()'],
-    [False, 'https://www.cdmarket.com.ar/Item/Result?getfilterdata=true&page=1&id=0&recsperpage=32&order=CustomDate&sort=False&itemtype=Product&view=&term=playstation+5&filters=&hasStock=true', '//*/div[contains(@class, "box_data") and not(contains(@class, "box_data nonavailable"))]/h3/text()'],
     [False, 'https://www.cdmarket.com.ar/Item/Result?getfilterdata=true&page=1&id=0&recsperpage=32&order=CustomDate&sort=False&itemtype=Product&view=&term=ps5&filters=&hasStock=true', '//*/div[contains(@class, "box_data") and not(contains(@class, "box_data nonavailable"))]/h3/text()'],
 
     #
     # Necxus
     #
-    [False, 'https://www.necxus.com.ar/buscar/playstation/', '*//titulo-producto-grilla/text()'],
-    [False, 'https://www.necxus.com.ar/buscar/playstation-5/', '*//titulo-producto-grilla/text()'],
     [False, 'https://www.necxus.com.ar/buscar/ps5/', '*//titulo-producto-grilla/text()'],
     
     #
     # Cetrogar
     #
-    [False, 'https://www.cetrogar.com.ar/catalogsearch/result/?q=playstation', '*//a[@class="product-item-link"]/text()'],
     [False, 'https://www.cetrogar.com.ar/catalogsearch/result/?q=ps5', '*//a[@class="product-item-link"]/text()'],
 ]
 
