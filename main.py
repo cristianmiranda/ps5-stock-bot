@@ -109,7 +109,7 @@ STORES = [
     #
     # Necxus
     #
-    [False, 'https://www.necxus.com.ar/buscar/ps5/', '*//titulo-producto-grilla/text()'],
+    # [False, 'https://www.necxus.com.ar/buscar/ps5/', '*//titulo-producto-grilla/text()'],
     
     #
     # Cetrogar
