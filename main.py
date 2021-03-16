@@ -30,7 +30,7 @@ def parseJumbo(raw):
     return items
 
 
-GARBAGE = ['marvels', 'sackboy', 'souls', 'morales', 'dualsense', 'juego', 'ps4', 'cámara', 'camara', 'camera', 'control', 'joystick', 'dualshock', 'parlante', 'celular', 'funda', 'lavarropas', 'cocina', 'plancha', 'auriculares', 'auricular', 'headset', 'kombat', 'android', 'nes', 'retro', 'pc', 'mixer', 'xbox', 'microsoft', 'nintendo', 'audio', 'fighter', 'nba', 'vr', 'meses', 'posavasos', 'lámpara', 'remote', 'hd', 'kanji', 'stickers', 'duty', 'alien']
+GARBAGE = ['marvels', 'sackboy', 'souls', 'morales', 'dualsense', 'juego', 'ps4', 'cámara', 'camara', 'camera', 'control', 'joystick', 'dualshock', 'parlante', 'celular', 'funda', 'lavarropas', 'cocina', 'plancha', 'auriculares', 'auricular', 'headset', 'kombat', 'android', 'nes', 'retro', 'pc', 'mixer', 'xbox', 'microsoft', 'nintendo', 'audio', 'fighter', 'nba', 'vr', 'meses', 'posavasos', 'lámpara', 'remote', 'hd', 'kanji', 'stickers', 'duty', 'alien', 'lente', 'noga', 'torre', 'reflex', 'barra']
 
 KEYWORDS = ['playstation', 'ps5', 'consola', 'console', 'sony']
 
@@ -92,8 +92,8 @@ STORES = [
     #
     # Coppel
     #
-    [False, 'https://www.coppel.com.ar/search/?q=playstation', '//*[contains(@class, "item-name")]/text()'],
-    [False, 'https://www.coppel.com.ar/search/?q=ps5', '//*[contains(@class, "item-name")]/text()'],
+    # [False, 'https://www.coppel.com.ar/search/?q=playstation', '//*[contains(@class, "item-name")]/text()'],
+    # [False, 'https://www.coppel.com.ar/search/?q=ps5', '//*[contains(@class, "item-name")]/text()'],
     
     #
     # Falabella
