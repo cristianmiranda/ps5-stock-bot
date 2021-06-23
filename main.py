@@ -30,7 +30,7 @@ def parseJumbo(raw):
     return items
 
 
-GARBAGE = ['marvels', 'sackboy', 'souls', 'morales', 'dualsense', 'juego', 'ps4', 'cámara', 'camara', 'camera', 'control', 'joystick', 'dualshock', 'parlante', 'celular', 'funda', 'lavarropas', 'cocina', 'plancha', 'auriculares', 'auricular', 'headset', 'kombat', 'android', 'nes', 'retro', 'pc', 'mixer', 'xbox', 'microsoft', 'nintendo', 'audio', 'fighter', 'nba', 'vr', 'meses', 'posavasos', 'lámpara', 'remote', 'hd', 'kanji', 'stickers', 'duty', 'alien', 'lente', 'noga', 'torre', 'reflex', 'barra', 'compacta', 'minicomponente', 'atari', 'bateria', 'batería', 'ce7', 'radio', 'multimedia', 'reloj', 'cargador', 'nioh']
+GARBAGE = ['marvels', 'sackboy', 'souls', 'morales', 'dualsense', 'juego', 'ps4', 'cámara', 'camara', 'camera', 'control', 'joystick', 'dualshock', 'parlante', 'celular', 'funda', 'lavarropas', 'cocina', 'plancha', 'auriculares', 'auricular', 'headset', 'kombat', 'android', 'nes', 'retro', 'pc', 'mixer', 'xbox', 'microsoft', 'nintendo', 'audio', 'fighter', 'nba', 'vr', 'meses', 'posavasos', 'lámpara', 'remote', 'hd', 'kanji', 'stickers', 'duty', 'alien', 'lente', 'noga', 'torre', 'reflex', 'barra', 'compacta', 'minicomponente', 'atari', 'bateria', 'batería', 'ce7', 'radio', 'multimedia', 'reloj', 'cargador', 'nioh', 'pack', 'ratchet', 'returnal']
 
 KEYWORDS = ['playstation', 'ps5', 'consola', 'console', 'sony']
 
@@ -50,8 +50,8 @@ STORES = [
     #
     # Musimundo
     #
-    [True, 'https://u.braindw.com/els/musimundoapi?ft=playstation&qt=100&sc=carsa&refreshmetadata=true&exclusive=0&aggregations=true', parseMusimundo],
-    [True, 'https://u.braindw.com/els/musimundoapi?ft=ps5&qt=100&sc=carsa&refreshmetadata=true&exclusive=0&aggregations=true', parseMusimundo],
+    # [True, 'https://u.braindw.com/els/musimundoapi?ft=playstation&qt=100&sc=carsa&refreshmetadata=true&exclusive=0&aggregations=true', parseMusimundo],
+    # [True, 'https://u.braindw.com/els/musimundoapi?ft=ps5&qt=100&sc=carsa&refreshmetadata=true&exclusive=0&aggregations=true', parseMusimundo],
     
     #
     # Jumbo
